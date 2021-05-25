@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Add config.py to ignore list
+WeatherPy/config.py
+VacationPy/config.py
