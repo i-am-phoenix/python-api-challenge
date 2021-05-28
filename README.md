@@ -65,7 +65,7 @@ No input data is provided for **WeatherPy**, as city locations are to be generat
 
 6. Having imported content of the  [city_data.csv](WeatherPy/city_data.csv), we then used <i>jupyter-gmaps</i> to generate a heat map that displays the humidity for every city in the generated dataset.
 
-   <img src="VacationPy/humidity_heatmap.png" alt="city_data" style="zoom:80%;" align="center"/>
+   <img src="VacationPy/humidity_heatmap.png" alt="Google map of humidity" style="zoom:80%;" align="center"/>
 
 7. The Data Frame was then narrowed based on the following conditions:
 
@@ -75,4 +75,4 @@ No input data is provided for **WeatherPy**, as city locations are to be generat
 
 8. City locations from the resulting data frame were then fed to Google Places API which pulled names of first hotel located within 5000 m of the provided (lat,lon) location coordinate pair. The heatmap was then overlaid by a marker layer where each pin represented selected "ideal" location and marker's tooltip contained information about the hotel (if hotel existed), while a message was printed notifying the user if no hotels were found within the specified radius.
 
-   <img src="VacationPy/humidity_heatmap_w_hotel_pins.png" alt="city_data" style="zoom:65%;" align="center"/>
+   <img src="VacationPy/humidity_heatmap_w_hotel_pins.png" alt="Google map of humidity with hotel pins" style="zoom:65%;" align="center"/>
